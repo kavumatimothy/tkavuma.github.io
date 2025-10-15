@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f5f5f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.resume-container {
+  max-width: 850px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px 60px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+  color: #1b4b72;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: #555;
+  margin-top: 5px;
+}
+
+.contact {
+  font-size: 0.95em;
+  color: #444;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-bottom: 2px solid #1b4b72;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  font-size: 1.05em;
+  color: #1b4b72;
+  margin-bottom: 8px;
+}
+
+.role {
+  font-weight: 600;
+  color: #111;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+ul {
+  margin: 8px 0 0 18px;
+  list-style: none; 
+}
+
+ul li {
+  margin-bottom: 4px;
+}
+
+a {
+  color: #1b4b72;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.education li {
+  margin-bottom: 3px;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+  .resume-container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+}
